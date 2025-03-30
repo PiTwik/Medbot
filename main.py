@@ -63,4 +63,3 @@ if __name__ == '__main__':
     application.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 
     print("Бот запущен...")
-    application.run_polling()git push -u origin main
